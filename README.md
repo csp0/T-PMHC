@@ -1,7 +1,7 @@
 # T-PMHC: Time-bound Polynomial-masked Hash Chain for GNSS Authentication
 
 This repository contains the simulation models and Hardware-in-the-Loop (HIL) benchmarking codes 
-for the performance evaluation of the proposed **T-PMHC (Time-bound Polynomial-masked Hash Chain)** 
+for the performance evaluation of the proposed **T-PMHC (Time-bound Polynomial-Masked Hash Chain)** 
 architecture, compared against the conventional Merkle Tree (MT) approach for GNSS authentication (e.g., GPS Chimera).
 
 The evaluation encompasses both communication efficiency (Expected TTFAF under degraded channels) 
