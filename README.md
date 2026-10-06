@@ -39,5 +39,5 @@ To reproduce the results, the following environments are required:
 3. Run `Figure_9.m` to generate the probabilistic Expected TTFAF graph across varying $C/N_0$ conditions.
 
 ### 2. Computational Overhead Benchmarking (SIL / HIL)
-* **Software-in-the-Loop (SIL)**: Navigate to the `TPMHC-Pico2-Benchmark/1_MATLAB_SIL_Simulation` directory and execute the master `.mlx` script to generate C codes and run the profiling report natively on the host PC.
-* **Hardware-in-the-Loop (HIL)**: Open the `.ino` file located in `TPMHC-Pico2-Benchmark/2_Arduino_HIL_Deployment` using the Arduino IDE. Select the *Raspberry Pi Pico 2* board, compile, and upload to measure the exact CPU clock cycles and memory footprint.
+* **Software-in-the-Loop (SIL)**: Navigate to the `TPMHC-Pico2-Benchmark/MATLAB_SIL_Simulation` directory and execute the master `.mlx` script to generate C codes and run the profiling report natively on the host PC.
+* **Hardware-in-the-Loop (HIL)**: Open the `.ino` file located in `TPMHC-Pico2-Benchmark/Arduino_HIL_Deployment` using the Arduino IDE. Select the *Raspberry Pi Pico 2* board, compile, and upload to measure the exact CPU clock cycles and memory footprint.
