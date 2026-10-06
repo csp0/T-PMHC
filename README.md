@@ -19,8 +19,9 @@ for hardware benchmarking:
   curve and the Expected Time-To-First-Authenticated-Fix (TTFAF) comparisons under "Poor (Urban Canyon)"
   to "Excellent" signal environments.
 * **`L1CLDPCParityCheckMatrices.mat`**: CNAV-2 LDPC Parity Check Matrices required for the baseband FER simulations.
-* **`TPMHC_Main.m` & `TPMHC_Main_Output.pdf`**: The main execution script and its compiled output report
-  demonstrating the system-level protocol operations.
+* **`TPMHC_Main.m` & `TPMHC_Main_Output.pdf`**: The main execution script and its compiled output report demonstrating
+  the system-level protocol operations. Notably, it encompasses a complete implementation of the GPS L1C baseband
+  processing pipeline, including signal acquisition, tracking loops, and CNAV-2 message recovery via BCH and LDPC decoding.
 * **`gpsNAVDataEncode.m` / `gpsNavigationConfig.m` / `hexToBits.mlx`**: Utility scripts and configurations
   for GPS navigation data formatting and encoding.
 
