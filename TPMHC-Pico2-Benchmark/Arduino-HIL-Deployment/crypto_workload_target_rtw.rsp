@@ -1,0 +1,7 @@
+rt_nonfinite.obj
+rtGetNaN.obj
+rtGetInf.obj
+crypto_workload_target_initialize.obj
+crypto_workload_target_terminate.obj
+crypto_workload_target.obj
+log2.obj
