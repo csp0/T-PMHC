@@ -7,7 +7,7 @@ architecture, compared against the conventional Merkle Tree (MT) approach for GN
 The evaluation encompasses both communication efficiency (Expected TTFAF under degraded channels) 
 and receiver-side resource constraints (computational overhead on a 32-bit embedded processor).
 
-## 📂 Repository Structure
+## Repository Structure
 
 The repository consists of MATLAB-based baseband simulations and auto-generated C/C++ codes 
 for hardware benchmarking:
@@ -25,13 +25,13 @@ for hardware benchmarking:
 * **`gpsNAVDataEncode.m` / `gpsNavigationConfig.m` / `hexToBits.mlx`**: Utility scripts and configurations
   for GPS navigation data formatting and encoding.
 
-## 🚀 Prerequisites
+## Prerequisites
 
 To reproduce the results, the following environments are required:
 * **Software**: MATLAB (with Communications Toolbox and MATLAB Coder) & Arduino IDE.
 * **Hardware**: Raspberry Pi Pico 2 (or any equivalent ARM Cortex-M Series microcontroller) for HIL benchmarking.
 
-## 🛠️ How to Run
+## How to Run
 
 ### 1. Baseband & TTFAF Simulation (MATLAB)
 1. Open MATLAB and navigate to this repository's root directory.
